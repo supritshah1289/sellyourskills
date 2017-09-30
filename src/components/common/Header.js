@@ -4,7 +4,7 @@ import {Link, IndexLink} from 'react-router';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {IndexLinkContainer} from 'react-router-bootstrap';
 import PropTypes from 'prop-types';
-/*const Header = () => {
+const Header = () => {
   return(
     <nav>
       <IndexLink to="/" activeClassName="active"> Home </IndexLink>
@@ -14,9 +14,9 @@ import PropTypes from 'prop-types';
       <Link to="about" activeClassName="active"> About </Link>
     </nav>
   );
-};*/
+};
 
-
+/*
 const Header = () => {
   return(
     <Navbar inverse collapseOnSelect>
@@ -47,6 +47,6 @@ const Header = () => {
   </Navbar>
   );
 };
-
+*/
 
 export default Header;
