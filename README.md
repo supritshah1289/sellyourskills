@@ -4,7 +4,7 @@
 ##Commands
 
 **Dependencies**
-> npm i -S babel-polyfill bootstrap jquery react react-dom react-redux react-router react-router-redux redux redux-thunk toastr
+> npm i -S babel-polyfill bootstrap jquery react react-dom react-redux react-router react-router-redux redux redux-thunk toastr react-bootstrap
 
 **Dev dependencies to be installed**
 
