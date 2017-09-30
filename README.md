@@ -1,7 +1,7 @@
 #Sell Your Skills (SYS)
 
 
-##Commands
+## Commands
 
 **Dependencies**
 > npm i -S babel-polyfill bootstrap jquery react react-dom react-redux react-router react-router-redux redux redux-thunk toastr react-bootstrap
