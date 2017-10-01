@@ -2,9 +2,10 @@ import React from 'react';
 import {Link, IndexLink} from 'react-router';
 //do something here for dropdown menu using react-bootstrap
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {IndexLinkContainer} from 'react-router-bootstrap';
+import {IndexLinkContainer, LinkContainer} from 'react-router-bootstrap';
 import PropTypes from 'prop-types';
-const Header = () => {
+
+/*const Header = () => {
   return(
     <nav>
       <IndexLink to="/" activeClassName="active"> Home </IndexLink>
@@ -15,8 +16,8 @@ const Header = () => {
     </nav>
   );
 };
+*/
 
-/*
 const Header = () => {
   return(
     <Navbar inverse collapseOnSelect>
@@ -28,17 +29,19 @@ const Header = () => {
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <IndexLinkContainer to="home">
-          <NavItem eventKey={1} href="/">Home</NavItem>
-        </IndexLinkContainer>
-        <IndexLinkContainer to="about">
-          <NavItem eventKey={2} href="/about">About</NavItem>
-        </IndexLinkContainer>
+          <IndexLinkContainer to="/" href="/">
+            <NavItem eventKey={1}>Home</NavItem>
+          </IndexLinkContainer>
+          <LinkContainer to="/about" href="/about">
+            <NavItem eventKey={2}>About</NavItem>
+          </LinkContainer>
+        <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
+          <LinkContainer to="/course" href="/course">
+          <MenuItem eventKey={3.1}>Mendhi</MenuItem>
+          </LinkContainer>
 
-        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1}>Action</MenuItem>
-          <MenuItem eventKey={3.2}>Another action</MenuItem>
-          <MenuItem eventKey={3.3}>Something else here</MenuItem>
+          <MenuItem eventKey={3.2}>Make up Artist(MUA)</MenuItem>
+          <MenuItem eventKey={3.3}>Garba Singer</MenuItem>
           <MenuItem divider />
           <MenuItem eventKey={3.3}>Separated link</MenuItem>
         </NavDropdown>
@@ -47,6 +50,5 @@ const Header = () => {
   </Navbar>
   );
 };
-*/
 
 export default Header;
