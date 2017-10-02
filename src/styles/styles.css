@@ -1,15 +1,38 @@
+/*body color : #EFEFEF
+header color : #25283D;
+button color: #07BEB8;
+*/
 #app{
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #4d4d4d;
-  min-width: 550px;
-  max-width: 850px;
-  margin: 0 auto;
 }
 
 a.active{
   color: orange;
 }
-
-nav{
-  padding-top: 20px;
+button{
+  background-color: #07BEB8;
+  height: 43px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
 }
+body{
+  background-color: #FFFCF9;
+}
+
+.signin{
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.signup{
+  height: 800px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+
+/*write media queries for all screen sizes*/

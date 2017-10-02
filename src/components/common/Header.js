@@ -20,10 +20,10 @@ import PropTypes from 'prop-types';
 
 const Header = () => {
   return(
-    <Navbar inverse collapseOnSelect>
+    <Navbar inverse collapseOnSelect className="nav">
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="/">React-Bootstrap</a>
+        <a href="/">SYS</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
@@ -36,7 +36,7 @@ const Header = () => {
             <NavItem eventKey={2}>About</NavItem>
           </LinkContainer>
         <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
-          <LinkContainer to="/course" href="/course">
+          <LinkContainer to="/mehndi" href="/mehndi">
           <MenuItem eventKey={3.1}>Mendhi</MenuItem>
           </LinkContainer>
 
@@ -45,6 +45,16 @@ const Header = () => {
           <MenuItem divider />
           <MenuItem eventKey={3.3}>Separated link</MenuItem>
         </NavDropdown>
+      </Nav>
+      <Nav pullRight>
+        <LinkContainer to="/signup" href="/signup">
+          <NavItem eventKey={1} href="/signup">Sign Up</NavItem>
+        </LinkContainer>
+
+        <LinkContainer to="/login" href="/login">
+          <NavItem eventKey={2} href="/login">Log in</NavItem>
+        </LinkContainer>
+
       </Nav>
     </Navbar.Collapse>
   </Navbar>
