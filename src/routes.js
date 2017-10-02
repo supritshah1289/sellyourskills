@@ -5,7 +5,7 @@ import HomePage from './components/home/HomePage';
 import AboutPage from './components/about/AboutPage';
 import CoursesPage from './components/course/CoursesPage';
 import Mehndi from './components/mehndi/Mehndi';
-import SignupForm from './components/common/SignupForm'
+import SignupForm from './components/common/SignupForm';
 import LoginForm from './components/common/LoginForm';
 
 export default(
@@ -17,4 +17,4 @@ export default(
     <Route path="signup" component={SignupForm} />
     <Route path="login" component={LoginForm} />
    </Route>
-)
+);

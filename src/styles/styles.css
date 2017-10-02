@@ -10,16 +10,6 @@ button color: #07BEB8;
 a.active{
   color: orange;
 }
-button{
-  background-color: #07BEB8;
-  height: 43px;
-  width: 80px;
-  border: 1px solid black;
-  border-radius: 6px;
-}
-body{
-  background-color: #FFFCF9;
-}
 
 .signin{
   height: 400px;

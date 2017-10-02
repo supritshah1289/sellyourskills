@@ -35,6 +35,9 @@ const Header = () => {
           <LinkContainer to="/about" href="/about">
             <NavItem eventKey={2}>About</NavItem>
           </LinkContainer>
+          <LinkContainer to="/course" href="/course">
+            <NavItem eventKey={2}>Course</NavItem>
+          </LinkContainer>
         <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
           <LinkContainer to="/mehndi" href="/mehndi">
           <MenuItem eventKey={3.1}>Mendhi</MenuItem>
