@@ -1,7 +1,7 @@
 import delay from './delay';
 
 const mehndis =[
-  {
+  { id: 1,
     title: "Best designs in town",
     firstName: "Priya",
     lastName: "Patel",
@@ -13,6 +13,7 @@ const mehndis =[
     country:"USA"
   },
   {
+    id: 10,
     title: "Wedding Henna Designer",
     firstName: "Zinat",
     lastName: "Aman",
@@ -24,6 +25,7 @@ const mehndis =[
     country:"USA"
   },
   {
+    id: 11,
     title: "Great Mehndi Designs",
     firstName: "James",
     lastName: "Bond",
@@ -33,7 +35,44 @@ const mehndis =[
     state:"NJ",
     zip: "07307",
     country:"USA"
+  },
+  {
+    id: 12,
+    title: "Design by Shah",
+    firstName: "Suprit",
+    lastName: "Shah",
+    price: "$300",
+    imageUrl: "https://i.ytimg.com/vi/cOPq32pi-Lw/maxresdefault.jpg",
+    city: "N. Plainfield",
+    state:"NJ",
+    zip: "07060",
+    country:"USA"
+  },
+  {
+    id: 13,
+    title: "Design by Patel",
+    firstName: "Suprit",
+    lastName: "Shah",
+    price: "$300",
+    imageUrl: "https://i.ytimg.com/vi/cOPq32pi-Lw/maxresdefault.jpg",
+    city: "N. Plainfield",
+    state:"NJ",
+    zip: "07060",
+    country:"USA"
+  },
+  {
+    id: 15,
+    title: "Design by Amin",
+    firstName: "Suprit",
+    lastName: "Shah",
+    price: "$300",
+    imageUrl: "https://i.ytimg.com/vi/cOPq32pi-Lw/maxresdefault.jpg",
+    city: "N. Plainfield",
+    state:"NJ",
+    zip: "07060",
+    country:"USA"
   }
+
 ];
 
 class MehndiApi{

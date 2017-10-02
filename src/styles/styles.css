@@ -11,6 +11,11 @@ a.active{
   color: orange;
 }
 
+img{
+  height: 171px;
+  width: 180px;
+}
+
 .signin{
   height: 400px;
   width: 400px;

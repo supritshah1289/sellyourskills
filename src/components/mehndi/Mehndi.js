@@ -16,7 +16,7 @@ class Mehndi extends React.Component{
   render(){
     const {mehndis} = this.props;
     return(
-      <div>
+      <div className="container-fluid">
         <h2>Mehndi</h2>
         <MehndiList mehndis={mehndis}/>
       </div>
