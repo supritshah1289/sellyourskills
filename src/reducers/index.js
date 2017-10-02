@@ -2,9 +2,11 @@
 
 import {combineReducers}  from 'redux';
 import courses            from './courseReducer';
+import mehndis            from './mehndiReducer';
 
 const rootReducer = combineReducers({
-  courses
+  courses,
+  mehndis
 });
 
 export default rootReducer;
